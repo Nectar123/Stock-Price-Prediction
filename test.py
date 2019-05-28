@@ -1,0 +1,15 @@
+# a=input("enter sentence ")
+# b=a.split()
+# g=list()
+# for i in b:
+# 	c=len(i)
+# 	g.append(c)
+# d=max(g)
+# print(d)
+import matplotlib.pyplot as plt
+plt.plot([1,2,3,4],[1,4,9,16])
+plt.ylabel('squares')
+plt.xlabel('numbers')
+plt.title('myplt')
+plt.grid()
+plt.show()
